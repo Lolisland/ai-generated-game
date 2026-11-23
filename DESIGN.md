@@ -2,11 +2,11 @@ Design direction — psychedelic game
 North star
 An intimate, responsive world that feels like a crafted instrument: strange, inviting, and precise. The player should enjoy touching it before understanding every rule. Psychedelia comes from transformation and perception, not a constant flood of color or effects.
 
-This is a starting art direction for a browser-based 2D game. The genre, story, and mechanics are still open. Revise the direction when a playable prototype reveals a stronger identity.
+This is the art direction for a browser-based 3D game. The seed explores a quiet field and changes through interactions; the broader story and mechanics remain open.
 Visual identity: living ink and light
 - Material: soft pools of pigment, fine grain, translucent layers, and thin luminous contours against deep charcoal. Shapes should feel drawn or grown, with controlled imperfections.
 - Composition: one clear subject or interaction at a time. Give it generous dark space. Use asymmetry with deliberate balance; keep menus visually quiet.
-- Palette: near-black #10131B, midnight blue #1B2440, warm ivory #F1E9DA, electric coral #FF6D79, and mineral cyan #6ED9D0. Use coral and cyan as rare signals, not large backgrounds. Introduce a new hue only when it has a gameplay meaning.
+- Palette: near-black #10131B, midnight blue #1B2440, warm ivory #F1E9DA, electric coral #FF6D79, mineral cyan #6ED9D0, and violet. The reactive field uses flowing cyan, violet, and coral contours; awakening reorganizes them into a radial pattern centered on the stone. Keep the seed and instructions distinct from this richer field.
 - Depth: build it from scale, overlap, blur, and slow parallax. Avoid indiscriminate glow and heavy bloom. Keep the main interactive object crisp.
 - Type: one expressive display face for a few short titles and one highly legible text face for controls and explanations. Use restrained sizes and spacing; never place important instructions over busy art.
 - UI: minimal controls integrated with the scene, clear focus and hover states, and explicit feedback for every action. Decorative effects must never obscure a target or score.
@@ -23,7 +23,7 @@ Sound and response
 What to avoid
 - Generic gradients on every surface, glass cards, neon outlines everywhere, emoji icon sets, and a dashboard-like interface.
 - Stock-looking fantasy landscapes, arbitrary fractals, particles without a gameplay purpose, and visual motifs copied from familiar psychedelic branding.
-- Randomized effects that change every moment without reflecting player action; long introductions that delay the first interaction.
+- Randomized effects that change every moment without reflecting player action; long introductions that delay the first interaction. Ambient flow is slow and deterministic; seed position and blooming distort nearby patterns. Gentle mode removes ambient flow and orbit rotation and lowers field brightness.
 - Adding visual polish to hide unclear controls or weak feedback.
 Build and review one slice at a time
 1. First slice: one responsive object, one input, one satisfying transformation, a short instruction, and restart. Use simple shapes before commissioning assets.

@@ -32,4 +32,8 @@ Build a beautiful, playful, responsive game through small, working iterations. M
 
 - For a browser game needing accounts, saved progress, or other server features, start with SvelteKit as the full-stack framework and Phaser for the 2D game canvas. Keep game state in the browser first; add persistence and a database only when a feature needs them.
 - Treat this as a starting recommendation, not an installed stack. Reassess if the intended game is primarily 3D or targets native devices.
-- No project scripts or game controls exist yet. Add their exact commands and controls here after the first playable slice is created.
+- The game is a browser-based 3D scene using Three.js and Vite. Run `npm install` once, then `npm run dev` and open the displayed local address. Build with `npm run build`.
+- Move with arrow keys or WASD, or click or tap the field. Press Space or use Bloom to toggle petals. Reach the standing stone to become a light. Start again resets the scene.
+- The game has no audio. `visuals.js` renders a procedural Three.js shader field that reacts to seed position, bloom, and awakening. Effects: gentle freezes ambient motion and lowers intensity; reduced-motion preferences select it automatically. Hidden tabs stop visual updates.
+- On Windows PowerShell use `npm.cmd` for all npm commands if script execution is blocked.
+- Run rule checks with `npm.cmd test`, browser checks with `npm.cmd run test:browser` (installed Google Chrome required), and production compilation with `npm.cmd run build`. Browser screenshots go in ignored `test-results/`. There are no lint or type-check scripts yet.
